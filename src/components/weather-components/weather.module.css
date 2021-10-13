@@ -1,0 +1,128 @@
+button {
+  border-width: 0;
+}
+
+.fullscreen {
+  height: 100vh;
+  position: relative;
+  
+}
+
+.tinter {
+  z-index: 0;
+  background-color: rgba(30, 33, 58, 0.9);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+} 
+
+
+.searchButton {
+  padding: 10px;
+  background-color: #6e707a;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+  margin: 1rem;
+}
+
+.locationButton {
+  padding: 10px;
+  height: fit-content;
+  width: fit-content;
+  background-color: #6e707a;
+  cursor: pointer;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+.weatherIconContainer {
+  height: 30vh;
+  overflow-y: hidden;
+}
+
+.buttonHeaderContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  overflow-y: hidden;
+}
+
+.searchButton:hover,
+.locationButton:hover {
+  background-color: #797b85;
+}
+
+.temperature {
+  font-size: 8rem;
+  color: white;
+  margin: 2rem;
+}
+
+.celsius {
+  font-size: 4rem;
+  color: #a09fb1;
+  font-weight: 500;
+}
+
+.temperatureContainer {
+  /* width: 100vw; */
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: hidden;
+
+}
+
+.weatherDescription {
+  margin: 0;
+  color: #a09fb1;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  overflow-y: hidden;
+}
+
+.date {
+  color: #88869d;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  overflow-y: hidden;
+
+}
+
+.date > * {
+  margin-left: 1rem;
+
+}
+
+.locationContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  overflow-y: hidden;
+}
+
+.locationContainer > p {
+  color: #88869d;
+  margin-left: 0.5rem;
+}
+
+.tint {
+  height: 100vh;
+  background-color: rgba(30, 33, 58, 0.9);
+}
+

@@ -1,0 +1,13 @@
+.container {
+  margin-top: 2rem;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.container:hover {
+  border: #616475 solid 1px;
+}

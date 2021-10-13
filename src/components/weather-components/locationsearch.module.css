@@ -1,0 +1,66 @@
+.container {
+  box-sizing: border-box;
+  z-index: 100;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: #1e213a;
+  padding: 5%;
+  height: 100vh;
+}
+
+.head {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.inputSearchContainer {
+  border: #e7e7eb solid 1px;
+  width: 63%;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+
+.locationSearchInput {
+  background-color: transparent;
+  border: none;
+  margin-left: 10px;
+  color: white;
+}
+
+.locationSearchInput:focus {
+  outline: none;
+}
+
+.searchButton {
+  background-color: #3c47e9;
+  color: white;
+  cursor: pointer;
+  width: 25%;
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 16px;
+  border: none;
+}
+
+.searchButton:hover {
+  background-color: #4752eb;
+}
+
+.inputSubmitionContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  margin-top: 1rem;
+}
+
+
+
+@media screen and (min-width: 992px) {
+  .container {
+  padding: 2rem;
+ 
+}
+
+}

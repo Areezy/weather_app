@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #100E1D;
+  background-image: url('../assets/Cloud-background.png');
+  background-position: 55% 10%;
+  background-color: #1e213a;
+  /* background-color: rgba(30, 33, 58, 1); */
+
+}
+
+@media screen and (min-width: 992px) {
+  #root {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    
+  }
+  
+  
+}
+
+
+.tint {
+  height: 100vh;
+ 
+  background-color: rgba(30, 33, 58, 0.9);
+}
+
+
+

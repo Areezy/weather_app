@@ -1,0 +1,54 @@
+.container {
+  background-color: #100e1d;
+  padding: 2rem;
+  /* position: absolute; */
+  display: flex;
+  flex-direction: column;
+}
+
+.dailyWeatherContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+}
+
+.header {
+  color: white;
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    grid-column: 2/5;
+    padding: 4%;
+    padding-bottom: 0;
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+
+  .dailyWeatherContainer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .weatherHighlights {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 30px;
+  }
+}
+
+
+footer {
+  color: white;
+  text-align: center;
+  margin-top: auto;
+}
+
+.redHeart {
+  color: red;
+  display: inline;
+}
+
+a {
+  color: white;
+}
