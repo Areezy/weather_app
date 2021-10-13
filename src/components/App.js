@@ -7,14 +7,14 @@ import { useState } from 'react';
 export default function App() {
   const [weatherData, setWeatherData] = useState({});
 
-  function printData (data) {
+  function setData (data) {
     setWeatherData(data);
   }
 
   return (
     <>
     <ApplicationContextProvider>
-      <WeatherToday Data={printData}/>
+      <WeatherToday Data={setData}/>
       <WeatherStats Data={weatherData}/>
     </ApplicationContextProvider>
     </>
