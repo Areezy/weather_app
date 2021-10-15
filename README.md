@@ -10,7 +10,7 @@ Demo can be viewed [here.](https://weather-app-areezy.vercel.app/)
 - React
 - Moment.js
 - CSS Modules
-- (OpenWeatherMap API)[https://openweathermap.org/]
+- [OpenWeatherMap API](https://openweathermap.org/)
 
 ## Getting Started
 
