@@ -5,7 +5,7 @@ export default function WeatherHighlights(props) {
       <div className={styles.container}>
         <p className={styles.title}>{props.title || 'Wind Status'}</p>
         <p className={styles.value}>
-          {props.value || 7}{' '}
+          {props.value}{' '}
           {props.title === 'Wind Speed' && (
             <span className={styles.unit}>mph</span>
           )}
