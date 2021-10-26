@@ -1,6 +1,6 @@
-# Weather App
+# Hey, What is the Weather ?
 
-This is a weather app written in React and bootstrapped with Create React App
+This is a single page app written in React and bootstrapped with Create React App which leverages the OpenWeatherMap API to provide climate data.
 
 ## Live Demo
 Demo can be viewed [here.](https://weather-app-areezy.vercel.app/)
